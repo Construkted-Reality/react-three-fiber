@@ -1,6 +1,6 @@
 {
   "name": "@react-three/fiber",
-  "version": "9.8.1",
+  "version": "9.8.2+construkted.1",
   "description": "A React renderer for Threejs",
   "keywords": [
     "react",
@@ -33,6 +33,12 @@
   "types": "dist/react-three-fiber.cjs.d.ts",
   "react-native": "native/dist/react-three-fiber-native.cjs.js",
   "sideEffects": false,
+  "files": [
+    "dist",
+    "native",
+    "react-reconciler",
+    "CHANGELOG.md"
+  ],
   "preconstruct": {
     "entrypoints": [
       "index.tsx",
